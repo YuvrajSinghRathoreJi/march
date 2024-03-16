@@ -1,0 +1,149 @@
+Q1
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter Any Number");
+    scanf("%d",&num);
+    printf("%d\n",num*num);
+    int sum = num*num;
+    int count = 0;
+    while(sum>0){
+        count += sum % 10;
+        sum /= 10;
+    }
+    printf("%d\n",count);
+    if(count==num){
+        printf("This is a neon number");
+    }
+    else{
+        printf("This is not a neon number");
+    }
+    return 0;
+}
+
+
+
+
+
+——————————————————————————
+Q2
+#include <stdio.h>
+int main()
+{
+  int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum+rem*rem*rem;
+       num=num/10;
+   }
+   printf("%d ",sum);
+   if(temp==sum){
+       printf("this number is armstrong number \n");
+   }
+   else {
+       printf("this number is not armstrong number \n");
+   }
+    return 0;
+} 
+—————————————————————————
+Q3
+#include <stdio.h>
+
+int main() {
+   int num;
+    printf("Enter the Number");
+    scanf("%d",&num);
+    int rem,sum=0;
+    while(num>0){
+        rem = num%10+1;
+        sum = sum*10+rem;
+        num = num/10;
+    }
+    printf("%d",sum);
+
+
+    return 0;
+} 
+—————————————————————————————
+Q4
+#include <stdio.h>
+int main()
+{
+   int num;
+   printf("Enter Any Number");
+   scanf("%d",&num);
+   int rem,sum=0;
+   int temp=num;
+   while(num>0){
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
+   }
+   printf("%d",sum);
+    return 0;
+}
+
+
+
+
+
+
+————————————————————————-
+Q5
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    
+    
+    printf("Enter starting point: ");
+    scanf("%d", &a);
+    printf("Enter ending point: ");
+    scanf("%d", &b);
+    
+    printf("Even numbers between %d and %d are:\n",a,b);
+    for (int i = a; i <= b; i++) {
+        if (i % 2 == 0) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+    
+    printf("Odd numbers between %d and %d are:\n", a,b);
+    for (int i = a; i <= b; i++) {
+        if (i % 2 != 0) {
+            printf("%d ", i);
+        }
+    }
+    printf("\n");
+    
+    return 0;
+}
+———————————————————————————
+Q6
+
+#include <stdio.h>
+
+int main() {
+    int i, j;
+
+    
+    for (i = 2; i <= 7; i++) {
+        printf("Multiplication table of %d:\n", i);
+        
+        for (j = 1; j <= 10; j++) {
+            printf("%d x %d = %d\n", i, j, i * j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+—————————————————————————

@@ -1,0 +1,227 @@
+1) 
+public class Main {
+    public static void main(String[] args) {
+short a=22;
+byte b=127;
+int c=3344;
+long d=223333;
+double e=22.33;
+float f=33.4f;
+char g='u';
+boolean uv= true;
+
+ System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(uv);
+
+    }
+}
+ ——————————————————————————
+2)
+public class Main {
+    public static void main(String[] args) {
+int a=67;
+char b='o';
+float c=-9.8f;
+int d=-3;
+long e=92;
+double f=-8.9;
+
+ System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+    }
+}
+
+
+———————————————————————
+3)
+public class Main {
+    public static void main(String[] args) {
+int a=2;
+int b=2;
+
+
+        System.out.println(a+b);
+
+
+    }
+}
+
+
+
+——————————————————————
+
+ 4)
+
+public class Main {
+    public static void main(String[] args) {
+int a=43;
+int b=5;
+
+
+        System.out.println(a-b);
+}
+}
+
+—————————————————————
+5)
+
+public class Main {
+    public static void main(String[] args) {
+int a=42;
+int b=2;
+
+
+        System.out.println(a/b);
+}
+}
+—————————————————————
+6)
+public class Main {
+    public static void main(String[] args) {
+        int a=56;
+        int b=3;
+
+
+        System.out.println(a*b);
+    }
+}
+———————————————————————
+7)
+public class Main {
+    public static void main(String[] args) {
+        int a=34;
+        int b=67;
+        int c=3;
+        int d=89;
+        int e=12;
+
+        System.out.println(a+b+c+d+e);
+    }
+}
+
+——————————————————————
+8)
+public class Main {
+    public static void main(String[] args) {
+        int a=34;
+        int b=4;
+        int c=4;
+        int d=8;
+
+
+        System.out.println(a+(b*c)-d);
+    }
+}
+
+—————————————————————
+9)
+
+public class Main {
+    public static void main(String[] args) {
+      double a=3.1;
+        double b=6.7;
+        double c=2.2;
+        double d=2.2;
+        double e=5.4;
+
+
+        System.out.println(a*b-(c*d)-e);
+    }
+}
+
+——————————————————————
+10)
+public class Main {
+    public static void main(String[] args) {
+      double a=2.3;
+        double b=7;
+        double c=3.4;
+        double d=6;
+        double e=2.3;
+        double f=2;
+
+
+        System.out.println(a-b+(c*d)-e/f);
+    }
+}
+
+———————————————————————
+
+11)
+
+public class Main {
+    public static void main(String[] args) {
+      int a=23;
+      int b=2;
+      int c=9;
+      int d=34;
+
+
+        System.out.println(a*b-c+d);
+    }
+}
+
+————————————————————————
+12)
+public class Main {
+    public static void main(String[] args) {
+      double a=4.5;
+        double b=7;
+        double c=2.3;
+        double d=2;
+        double e=34.6;
+
+
+
+        System.out.println(a*b+(c-d)+e);
+    }
+}
+
+————————————————————————
+13)
+public class Main {
+    public static void main(String[] args) {
+      int a=22;
+      int b=33;
+
+
+
+
+        System.out.println("the real value of a and b is :"+a+"  "+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("the swap value of a and b is :"+a+"  "+b );
+    }
+}
+
+___________________________________________
+14)
+public class Main {
+    public static void main(String[] args) {
+      int a=22;
+      int b=33;
+      int c=0;
+
+
+
+
+        System.out.println("the real value of a and b is :"+a+"  "+b);
+        c=a;
+        a=b;
+        b=c;
+        System.out.println("the swap value of a and b is :"+a+"  "+b );
+    }
+}
+
+

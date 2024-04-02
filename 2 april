@@ -1,0 +1,229 @@
+2 apr
+
+1)
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of short ");
+        short a = sc.nextShort();
+        System.out.println("the value of short is :" + a);
+        System.out.println("enter the value of byte");
+        byte b = sc.nextByte();
+        System.out.println(" the value of byte is : " +b);
+        System.out.println(" enter the value of int ");
+        int c = sc.nextInt();
+        System.out.println( " the  value of int is :" +c);
+        System.out.println("enter the value of long :");
+        long d = sc.nextLong();
+        System.out.println( "the value of long  is :"+d);
+        System.out.println( "enter the value of double :");
+        double e = sc.nextDouble();
+        System.out.println(" the value of double is " +e);
+        System.out.println("enter the value of float");
+        float f = sc.nextFloat();
+        System.out.println("the value of float is  "+f);
+        System.out.println(" enter the value of char :");
+        char g = sc.next().charAt(0);
+        System.out.println( "the value of char is "+g);
+        System.out.println("enter the value of boolean :");
+        boolean h = sc.nextBoolean();
+        System.out.println("the value of boolean is "+h);
+
+
+
+    }
+}
+————————————————————————
+2)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a");
+        int a = sc.nextInt();
+        System.out.println("the value of a is :" + a);
+        System.out.println("enter the value of byte");
+        char b = sc.next().charAt(0);
+        System.out.println(" the value of b is : " +b);
+        System.out.println(" enter the value of c ");
+        float c = sc.nextFloat();
+        System.out.println( " the  value of c is :" +c);
+        System.out.println("enter the value of d :");
+        int d = sc.nextInt();
+        System.out.println( "the value of d  is :"+d);
+        System.out.println( "enter the value of e :");
+        int e = sc.nextInt();
+        System.out.println(" the value of e is " +e);
+        System.out.println("enter the value of f");
+        float f = sc.nextFloat();
+        System.out.println("the value of f is  "+f);
+        
+
+
+
+    }
+}
+———————————————————————
+ 3)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value of a and b:");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        System.out.println(" the sum of a and b is "  +(a+b) );
+        System.out.println("the subtract of a and b is " + (a-b));
+        System.out.println(" the multiple of a and b is "  +(a*b) );
+        System.out.println(" the division  of a and b is "  +(a/b) );
+
+
+
+
+    }
+} 
+————————————————————————
+4)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value of a,b,c,d and e:");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
+        int d= sc.nextInt();
+        int e= sc.nextInt();
+        System.out.println(" the sum of 5 number is "  +(a+b+c+d+e) );
+
+
+
+
+
+    }
+}  
+——————————————————————
+5)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value :");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
+        int d= sc.nextInt();
+        System.out.println(" the Operation is "  +(a+(b*c)-d) );
+
+
+
+
+
+    }
+} 
+
+——————————————————————
+
+6)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value :");
+        float a= sc.nextFloat();
+        float b= sc.nextFloat();
+        float c= sc.nextFloat();
+        float d= sc.nextFloat();
+        float e= sc.nextFloat();
+        System.out.println(" the Operation is "  +(a*b-(c*d)-e) );
+
+
+
+
+
+    }
+}
+———————————————————————
+7)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value :");
+        float a= sc.nextFloat();
+        float b= sc.nextFloat();
+        float c= sc.nextFloat();
+        float d= sc.nextFloat();
+        float e= sc.nextFloat();
+        float f= sc.nextFloat();
+        System.out.println(" the Operation is "  +(a-b+(c*d)-e/f) );
+
+
+
+
+
+    }
+}
+———————————————————————
+8)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value :");
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c= sc.nextInt();
+        int d= sc.nextInt();
+
+        System.out.println(" the Operation is "  +(a*b-c+d) );
+
+
+
+
+
+    }
+}
+
+—————————————————————————
+9)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the value :");
+        float a= sc.nextFloat();
+        float b= sc.nextFloat();
+        float c= sc.nextFloat();
+        float d= sc.nextFloat();
+        float e= sc.nextFloat();
+        
+        System.out.println(" the Operation is "  +(a*b+(c-d)+e) );
+
+
+
+
+
+    }
+} 
+10

@@ -1,0 +1,225 @@
+3 apr 
+
+1)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            System.out.println(a);
+            a++;
+        }
+    }
+}
+
+
+
+2)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=100;
+        while (a>=1){
+            System.out.println(a);
+            a--;
+        }
+    }
+}
+
+
+3)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            if (a%2==0){
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+
+4)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=100;
+        while (a>=1){
+            if (a%2==0){
+            System.out.println(a);}
+            a--;
+        }
+    }
+}
+5)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            if (a%2==1){
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+
+6)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=50;
+        while (a<=500){
+            {
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+
+7)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=500;
+        while (a>=50){
+            {
+            System.out.println(a);}
+            a--;
+        }
+    }
+}
+8)public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=50;
+        while (a<=1000){
+            { if (a%2==0)
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+9)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args)  {
+Scanner ac =new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a= ac.nextInt();
+        System.out.println("1st number is :"+a);
+        System.out.println("enter 2nd number :");
+        int b=ac.nextInt();
+        System.out.println("2nd number is :"+b);
+        while (a<=b){
+            System.out.println(a);
+            a++;
+        }
+    }
+}
+
+
+10)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        System.out.println("1st number is :" + a);
+        System.out.println("enter 2nd number :");
+        int b = ac.nextInt();
+        System.out.println("2nd number is :" + b);
+        while (a <= b){
+            if (a % 2 == 1) {
+                System.out.println(a);
+            }
+        a++;
+    }
+    }
+}
+
+
+11)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        System.out.println("1st number is :" + a);
+        System.out.println("enter 2nd number :");
+        int b = ac.nextInt();
+        System.out.println("2nd number is :" + b);
+        while (a <= b){
+            if (a % 2 == 0) {
+                System.out.println(a);
+            }
+        a++;
+    }
+    }
+}
+
+12)
+public class Yuvraj{
+    public static void main(String[] args){
+        int a = 1;
+        int sum = 0;
+
+
+        while (a<=10){
+            System.out.println(a);
+
+            sum = sum+a;
+
+            a++;
+
+        }
+
+        System.out.println("Total :" + sum);
+
+
+
+
+    }
+}
+13)
+public class Yuvraj{
+    public static void main(String[] args){
+        int a = 2;
+        int b = 1;
+
+        while (b<=10){
+
+                System.out.println(a*b);
+            b++;
+            }
+
+
+        }
+
+    }
+
+
+14)import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        int b=1;
+        while (b<=10 ){
+            System.out.println(a*b);
+            b++;
+        }
+    }
+}
+
+
+15)
+

@@ -1,0 +1,448 @@
+3 apr 
+
+1)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            System.out.println(a);
+            a++;
+        }
+    }
+}
+
+
+——————————————————————
+2)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=100;
+        while (a>=1){
+            System.out.println(a);
+            a--;
+        }
+    }
+}
+
+———————————————————————
+3)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            if (a%2==0){
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+————————————————————
+4)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=100;
+        while (a>=1){
+            if (a%2==0){
+            System.out.println(a);}
+            a--;
+        }
+    }
+}
+———————————————————————
+5)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=1;
+        while (a<=100){
+            if (a%2==1){
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+———————————————————————
+6)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=50;
+        while (a<=500){
+            {
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+——————————————————————————
+7)
+public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=500;
+        while (a>=50){
+            {
+            System.out.println(a);}
+            a--;
+        }
+    }
+}
+——————————————————————————
+8)public class Yuvraj {
+    public static void main(String[] args)  {
+
+        int a=50;
+        while (a<=1000){
+            { if (a%2==0)
+            System.out.println(a);}
+            a++;
+        }
+    }
+}
+———————————————————————————
+9)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args)  {
+Scanner ac =new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a= ac.nextInt();
+        System.out.println("1st number is :"+a);
+        System.out.println("enter 2nd number :");
+        int b=ac.nextInt();
+        System.out.println("2nd number is :"+b);
+        while (a<=b){
+            System.out.println(a);
+            a++;
+        }
+    }
+}
+
+—————————————————————————
+10)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        System.out.println("1st number is :" + a);
+        System.out.println("enter 2nd number :");
+        int b = ac.nextInt();
+        System.out.println("2nd number is :" + b);
+        while (a <= b){
+            if (a % 2 == 1) {
+                System.out.println(a);
+            }
+        a++;
+    }
+    }
+}
+
+———————————————————————————
+11)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        System.out.println("1st number is :" + a);
+        System.out.println("enter 2nd number :");
+        int b = ac.nextInt();
+        System.out.println("2nd number is :" + b);
+        while (a <= b){
+            if (a % 2 == 0) {
+                System.out.println(a);
+            }
+        a++;
+    }
+    }
+}
+———————————————————————
+12)
+public class Yuvraj{
+    public static void main(String[] args){
+        int a = 1;
+        int sum = 0;
+
+
+        while (a<=10){
+            System.out.println(a);
+
+            sum = sum+a;
+
+            a++;
+
+        }
+
+        System.out.println("Total :" + sum);
+
+
+
+
+    }
+}
+———————————————————————
+13)
+public class Yuvraj{
+    public static void main(String[] args){
+        int a = 2;
+        int b = 1;
+
+        while (b<=10){
+
+                System.out.println(a*b);
+            b++;
+            }
+
+
+        }
+
+    }
+
+————————————————————————
+14)import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner ac = new Scanner(System.in);
+        System.out.println("enter 1st number :");
+        int a = ac.nextInt();
+        int b=1;
+        while (b<=10 ){
+            System.out.println(a*b);
+            b++;
+        }
+    }
+}
+ ————————————————————————
+
+15)public class Main{
+    public static void main(String[] args){
+        int a= 2 ;
+        int k = 9;
+        
+
+        while( a <= k  ){
+            int i = 1;
+
+            while (i<=10){
+                System.out.println(a*i);
+                i++;
+            }
+            a++;         
+        }
+    }
+}
+
+
+type2: 
+5 ----9 table 
+
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+
+        Scanner ac = new Scanner(System.in);
+
+        System.out.println("Enter Value of Sp :");
+        int sp = ac.nextInt();
+
+        System.out.println("Enter Value of ep :");
+        int ep = ac.nextInt();
+
+        int a= sp ;
+
+        while( a <= ep  ){
+            int i = 1;
+
+            while (i<=10){
+                System.out.println(a*i);
+                i++;
+            }
+            a++;         
+        }
+    }
+}
+-------------------------------------------------------
+16)
+
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int a=1;
+
+        while(a<=100){
+            if(a%7==0 && a%3==0 ){
+                System.out.println(a);
+            }
+            a++;
+        }
+        
+    }
+}
+
+
+---------------------------------------------------
+17) 
+
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int a=1;
+
+        while(a<=100){
+            if(a%5==0 && a%11==0 ){
+                System.out.println(a);
+            }
+            a++;
+        }
+        
+    }
+}
+--------------------------------------------------------
+18)
+
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int a=100;
+
+        while(a>=1){
+            if(a%5==0 && a%11==0 ){
+                System.out.println(a);
+            }
+            a--;
+        }
+        
+    }
+}
+----------------------------------
+19)
+
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int a=2;
+        int i= 10;
+
+        while(i>=1){
+                System.out.println(a*i);
+            i--;
+        }
+        
+    }
+}
+-------------------------------------------------
+20) 
+
+import java.util.*;
+
+
+public class  Main{
+    public static void main(String[] args){
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter value of n");
+        int n = dc.nextInt();
+
+        System.out.println("Enter value of m :");
+        int m = dc.nextInt();
+
+        int i = 100;
+
+        while(i>=1){
+            if(i%n == 0 && i%m==0 ){
+                System.out.println(i);
+            }
+            i--;
+        }
+    }
+}
+———————————————————————
+21)
+public class  Main{
+    public static void main(String[] args){
+        int a = 2;
+        int i = 1;
+
+        while(i<=10){
+            System.out.println(a+ "*" +i+ "=" + a*i);
+            i++;
+        }
+
+        
+
+    }
+}
+
+B)
+import java.util.Scanner;
+public class Yuvraj
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number: ");
+
+        int num=sc.nextInt();
+        int i=1;
+        while(i <= 10)
+        {
+            System.out.println(num+" * "+i+" = "+num*i);
+            i++;
+        }
+    }
+}
+22)
+public class Yuvraj
+{
+    public static void main(String args[]) {
+        int i = 1;
+        int sum = 0;
+        while (i <= 100) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
+            i++;
+            sum = sum + i;
+        }
+        System.out.println(sum);
+
+    }
+}
+23)public class Yuvraj
+{
+    public static void main(String args[]) {
+        int i = 1;
+        int sum = 0;
+        while (i <= 100) {
+            if (i % 2 == 1) {
+                System.out.println(i);
+            }
+            i++;
+            sum = sum + i;
+        }
+        System.out.println(sum);
+
+    }
+}
+

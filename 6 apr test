@@ -1,0 +1,475 @@
+1) public class VariableDeclaration {
+    public static void main(String[] args) {
+         int age = 25;
+
+        double price = 19.99;
+
+        System.out.println("Age: " + age);
+        System.out.println("Price: $" + price);
+    }
+}
+
+
+2)
+public class nw {
+
+    public static void main(String[] args) {
+        int num1= 10;
+        int num2=5;
+
+System.out.println(num1+num2);
+System.out.println(num1-num2);
+System.out.println(num1*num2);
+System.out.println(num1/num2);
+
+
+    }
+}
+3)
+public class nw {
+
+    public static void main(String[] args) {
+        boolean num1= true;
+        boolean num2=false;
+
+System.out.println(num1);
+
+
+
+    }
+}
+4)
+public class StringVariable {
+    public static void main(String[] args) {
+         String text = "This is some text.";
+
+         System.out.println("Text: " + text);
+    }
+}
+
+5)
+
+
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("enter any number : ");
+        int a = sc.nextInt();
+                
+        if (a%2==0) {
+            System.out.println("even number");
+            
+        }
+        else{
+            System.out.println("odd number");
+        }
+    }
+}
+6)
+import java.util.Scanner;
+
+public class Yuvraj {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter any yera: $");
+        int year = scanner.nextInt();
+
+        if (year%4==0) {
+            if (year%100==0) {
+                if (year%400==0) {
+                    System.out.println("leap yera :" +year);
+                }
+                else{
+                    System.out.println("not a leap year");
+
+                }
+
+
+            } else
+
+            {
+                System.out.println("not a leap year");
+            }
+
+        }
+        else {
+            System.out.println("not a leap year");
+        }
+
+
+    }
+
+}
+7)
+import java.util.Scanner;
+
+public class Yuv{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter any number: ");
+        int a = sc.nextInt();
+if (a<1 && a<0) {
+    System.out.println("negitiv number");
+}
+else if (a>1 ) {
+    System.out.println("posativ number");
+}
+else{
+    System.out.println("ZERO");
+}
+
+    }
+}
+8)
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter score  :");
+        int score = sc.nextInt();
+
+        if(score >45 && score <40 ){
+            System.out.println("Grade d");
+        }
+
+        else if (score > 41 && score <50){
+            System.out.println("Grade c");
+        }
+
+        else if (score >51 && score < 60){
+            System.out.println("B Grade");
+        }
+        else if ( score >60){
+            System.out.println("A Grade");
+        }
+        else if( score < 35){
+            System.out.println("fail");
+        }
+
+       
+    }
+}
+
+9)
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 20;
+
+        
+        while(i<=30){
+            if(i%2==0){
+                System.out.println(i);
+            }
+            i++;
+        }
+       
+    }
+}
+
+10)
+public class Main {
+
+    public static void main(String[] args) {
+
+        int sum = 0;
+        
+        for(int i =1 ; i <= 100; i++){
+            System.out.println(i);
+            sum = sum +i;
+        }
+
+        System.out.println("Total is :"+ sum);
+
+        
+        
+       
+    }
+}
+11)
+public class Main {
+
+    public static void main(String[] args) {
+        int n1 = 0;
+        int n2=1;
+        int n3;
+
+        
+        for(int i =1 ; i <= 10; i++){
+            n3=n1+n2;
+            n1=n2;
+            n2=n3;
+
+            System.out.println("Total is :"+ n3);
+
+
+            
+        }
+
+       
+    }
+}
+12)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc= new Scanner(System.in);
+
+        System.out.println("Enter a number :");
+        int a = dc.nextInt();
+
+        int fact =1;
+        int i=1;
+
+        while(i<=a){
+            fact = fact*i;
+            i++;
+        }
+        System.out.println(fact);
+
+       
+    }
+}
+14)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc= new Scanner(System.in);
+
+        System.out.println("Enter a number :");
+        int num = dc.nextInt();
+
+        int rem,sum=0;
+        int temp = num;
+
+        while(num>0){
+            rem=num%10;
+            sum =sum*10+rem;
+            num=num/10;
+        }
+
+        if(sum==temp){
+            System.out.println("palindrome number");
+        }
+        else {
+            System.out.println("Not a palindrome number");
+        }
+
+        
+       
+    }
+}
+
+15)
+
+
+16)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter Temp :");
+        char temp = dc.next().charAt(0);
+
+        if(temp =='c'){
+
+            System.out.println("enter Fahrenheit Value :");
+            int f = dc.nextInt();
+
+            int c = (f - 32) * 5/9;
+
+            System.out.println(c);
+
+            
+
+        }
+
+
+        
+
+    }
+}
+
+17)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter reservation :");
+        int rs = dc.nextInt();
+
+        int seat = 40;
+
+        if(seat >= rs ){
+            if(rs >5 ){
+                System.out.println("age is  vaild of reservation");
+            }
+            else {
+                System.out.println("age is not vaild of reservation");
+            }
+        }
+        else {
+            System.out.println("age is  vaild of reservation");
+        }
+
+        
+
+
+        
+
+    }
+}
+
+
+18)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter num :");
+        int num = dc.nextInt();
+
+        if(num%2==0 ){
+            System.out.println("even");
+            if(num>0 ){
+                System.out.println("positive");
+            }
+            else if (num<0){
+                System.out.println("negative");
+            }
+        }
+        else if (num%2!=0){
+            System.out.println("odd");
+            if(num>0 ){
+                System.out.println("positive");
+            }
+            else if (num<0){
+                System.out.println("negative");
+            }
+        }
+
+
+    }
+}
+
+
+19)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter month :");
+        int month = dc.nextInt();
+
+        switch (month) {
+            case 1:{
+                System.out.println("January");
+                break;
+            }
+            case 2:{
+                System.out.println("February");
+                break;
+            }
+            case 3:{
+                System.out.println("March");
+                break;
+            }
+            case 4:{
+                System.out.println("April");
+                break;
+            }
+ case 5:{
+                System.out.println("May");
+                break;
+            }
+            case 6:{
+                System.out.println("June");
+                break;
+            }
+            case 7:{
+                System.out.println("july");
+                break;
+            }
+            case 8:{
+                System.out.println("August");              
+                break;
+            }
+            case 9:{
+                System.out.println("September");
+                break;
+            }
+            case 10:{
+                System.out.println("October");
+                break;
+            }
+            case 11:{
+                System.out.println("November");
+                break;
+            }
+            case 12:{
+                System.out.println("December");
+                break;
+            }
+            default:{
+ System.out.println("Not a vaild month number");
+
+                break;
+
+            }
+                
+        }
+
+
+    }
+}
+20)
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("enter Price :");
+        int price = dc.nextInt();
+
+        System.out.println("enter age :");
+        int age = dc.nextInt();
+
+        if(age <18){
+            System.out.println(price +" 50% discount for child "+ price*0.50);
+        }
+        else if (age >18 && age <60){
+            System.out.println("No discount for adult");
+        }
+        else {
+            System.out.println(price +" 30% dicount for senior " + price*0.30);
+        }
+
+        
+    }
+}

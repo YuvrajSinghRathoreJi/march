@@ -1,0 +1,432 @@
+while : 
+reverse number 
+657
+756 
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int num = 657;
+        int rem,sum = 0;
+
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+        }
+
+        System.out.println(sum);
+
+    }
+}
+---------------------------------
+pallindrome number 
+12321 
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int num = 12321;
+        int sum=0;
+        int rem=0;
+        int temp = num;
+
+        while(num>0){
+            rem=num%10;
+            sum = sum *10+rem;
+            num = num/10;
+        }
+
+        System.out.println(sum);
+
+        if(temp  == sum){
+            System.out.println("pallindrome number ");
+        }
+        else {
+            System.out.println("not pallindrome number ");
+        }
+
+    }
+}
+
+
+-------------
+armstrong number 
+153 
+
+
+public class Main{
+    public static void main(String[] args){
+
+        int num = 153;
+        int sum = 0;
+        int rem = 0;
+        int temp = num;
+
+        while(num >0){
+            rem = num%10;
+            sum = sum + rem*rem*rem;
+            num = num/10;
+        }
+
+        System.out.println(sum);
+
+        if(temp==sum){
+            System.out.println("armstrong number");
+        }
+        else {
+            System.out.println("Not a armstrong number");
+        }
+
+    }
+}
+----------
+neon number 
+9 ka square 
+81 => 8+1=(9)
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("Enter a Number");
+        int num = dc.nextInt();
+
+        int sq=num*num;
+        int rem,sum = 0;
+
+        while(sq > 0){
+            rem = sq%10;
+            sum = sum + rem;
+            sq = sq/10;
+            
+        }
+
+        if(sum == num){
+            System.out.println(num + "is a perfect number");
+        }
+        else {
+            System.out.println(num +" is not perfect number");
+        }
+
+        
+    }
+
+}
+
+------------------
+prime number
+a)check number prime 
+
+public class Main{
+    public static void main(String[] args){
+        int a =7;
+        int i =2;
+
+        while(a>=i){
+            if(a%i==0){
+                break;
+            }
+            if(i==a-1){
+                System.out.println("Prime Number");
+            }
+            i++;
+        }
+    }
+}
+
+b)1--->100 prime number 
+
+public class Main{
+    public static void main(String[] args){
+        //System.out.println("enter a number ");
+        int a = 2;
+
+        for(int i=2;i<=100;i++){
+            for(a=2;a<=100;a++){
+                if(i%a==0){
+                    break;
+                }
+
+            }
+            if(a==i){
+                System.out.println(i);
+            }
+        }
+
+
+    }
+}
+
+
+-------------------------
+factorial 
+5 
+1*2*3*4*5
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		int fact =1;
+        int num = 4;
+        int i;
+
+        for(i=1;i<=num;i++){
+            fact = fact*i;
+            
+        }
+        System.out.println("fact number is :"+fact);
+
+	}
+}
+-------------------------------------------
+fibonacci series 
+0 1 1 2 3 5 
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		int n1=0;
+        int n2=1;
+        int n3;
+        for(int i=1;i<=5;i++){
+
+            n3=n1+n2;
+            n1=n2;
+            n2=n3;
+            System.out.println(n3);
+        }
+       
+	}
+}
+--------------------------------------
+use input :6743 =>4 digit 
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("Enter a number :");
+        int num = dc.nextInt();
+
+		int count=0;
+        while(num>0){
+            count++;
+            num=num/10;
+        }
+        System.out.println(count);
+       
+	}
+}
+
+--------------------------------------
+user : 342 => 354 
+-------------------------------------
+user: 342 =>453 
+----------------------------------
+
+even number 
+type1 : 1-->100 
+type2 : 1--->100 even number ka sum 
+type3 : random value 34--->89 =>even number 
+type4 : randome value k sabi ka sum aa jaye 
+
+odd number 
+type1: 1-->100 odd numbers 
+type2: 1--100 odd number ka sum 
+type3 : random value 34--->89 =>odd number 
+type4 : randome value k sabi ka sum aa jaye
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("Enter even/odd :");
+        String key = dc.nextLine();
+
+        if(key.equals("even")){
+            System.out.println("Enter Type number :");
+            int type = dc.nextInt();
+
+            if(type == 1){
+                for(int i = 1 ; i<=100;i++){
+                    if(i%2==0){
+                        System.out.println(i);
+                    }
+                }
+            }
+            
+            else if(type == 2){
+                int sum=0;
+                for(int i = 1 ; i<=100;i++){
+                    if(i%2==0){
+                        System.out.println(i);
+                        sum=sum+i;
+                    }
+
+                }
+                System.out.println("Total sum is :"+sum);
+            }
+            
+            else if(type == 3){
+                System.out.println("enter sp :");
+                int sp =dc.nextInt();
+
+                System.out.println("enter ep :");
+                int ep =dc.nextInt();
+
+
+                for(int i=sp;i<=ep;i++){
+                    if(sp%2==0){
+                        System.out.println(i);
+                    }
+                    
+                }
+            }
+
+            else if(type == 4){
+                System.out.println("enter sp :");
+                int sp =dc.nextInt();
+
+                System.out.println("enter ep :");
+                int ep =dc.nextInt();
+
+                int sum=0;
+
+
+                for(int i=sp;i<=ep;i++){
+                    if(sp%2==0){
+                        System.out.println(i);
+                        sum=sum+i;
+
+                    }
+                    
+                    
+                }
+                System.out.println("Total sum is :"+sum);
+                
+            }
+
+            }
+
+
+        else if (key.equals("odd")){
+            System.out.println("Enter Type number :");
+            int type = dc.nextInt();
+
+            if( type == 1){
+                for(int i =1 ; i <=100; i++){
+                    System.out.println(i);
+                }
+            }
+            else if (type == 2 ){
+                int sum=0;
+                for(int i =1 ; i<= 100; i++){
+                    if(i%2!= 0){
+                        System.out.println(i);
+                        sum =sum+i;
+
+                    }
+                    
+                    
+                }
+                System.out.println("Total value :"+sum);
+            }
+        }
+
+        }
+	}
+ 
+
+----------------------------------------------------------------------------------------------
+perfect number : 
+6 
+1 2 3 
+1 + 2 + 3 => 6 
+
+8 
+2 2 2 =>6 not perfect number 
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("Enter a Number");
+        int num = dc.nextInt();
+
+        int sum = 0;
+
+        if(num>0){
+            for(int i=1; i<num ;i++){
+                if(num%i==0){
+                    sum=sum+i;
+                }
+                
+            }
+        }
+
+        if(sum == num){
+            System.out.println(num + "is a perfect number");
+        }
+        else{
+            System.out.println(num + "is not a perfect number ");
+        }
+
+    }
+
+}
+
+--------------------------------------------------------------------------------------------
+neon number : 
+
+9 =>81 
+8+1 =>9 
+
+9 is neon number
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner dc = new Scanner(System.in);
+
+        System.out.println("Enter a Number");
+        int num = dc.nextInt();
+
+        int sq=num*num;
+        int rem,sum = 0;
+
+        while(sq > 0){
+            rem = sq%10;
+            sum = sum + rem;
+            sq = sq/10;
+            
+        }
+
+        if(sum == num){
+            System.out.println(num + "is a perfect number");
+        }
+        else {
+            System.out.println(num +" is not perfect number");
+        }
+
+        
+    }
+
+}
+
+--------------------------------------------------------------------------------------------------
